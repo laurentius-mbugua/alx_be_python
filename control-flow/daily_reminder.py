@@ -6,7 +6,7 @@ while task:
         print("Please enter a valid priority (high, medium, or low).")
         continue
 
-    time = input("Is it time-bound? (yes/no): ")
+    time = input("Is it time-bound? (yes/no):")
 
     match priority:
         case "high":
