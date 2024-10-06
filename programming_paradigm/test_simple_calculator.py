@@ -1,10 +1,11 @@
 import unittest
-import simple_calculator
+from simple_calculator import SimpleCalculator
 
+class TestSimpleCalculator(unittest.TestCase):
 
-def setUp(self):
-    """Set up the SimpleCalculator instance before each test."""
-    self.calc = simple_calculator.SimpleCalculator()
+    def setUp(self):
+        """Set up the SimpleCalculator instance before each test."""
+        self.calc = SimpleCalculator()
 
 
 def test_addition(self):
